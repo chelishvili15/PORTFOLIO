@@ -1,6 +1,6 @@
 <template>
   <div
-    class="absolute bg-darkBlue rounded-full  -translate-x-1/2 -translate-y-1/2 blur-3xl"
+    class="absolute bg-darkBlue rounded-full  -translate-x-1/2 -translate-y-1/2 blur-3xl z-[-1]"
     :style="{
       left: `${x}px` ,
       top: `${y}px`,
