@@ -6,7 +6,7 @@ body {
   background-color: rgba(15, 15, 37, 0.95);
 }
 
-:root { font-family: 'Inter', sans-serif; }
+:root { font-family:'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   :root { font-family: 'Inter var', sans-serif; }
 }

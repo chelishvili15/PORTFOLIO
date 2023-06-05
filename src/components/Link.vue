@@ -1,5 +1,5 @@
 <template>
-  <a :href="`https://${link}`" class="text-white visited:text-white">
+  <a :href="`https://${link}`" class="text-teal-100 visited:text-teal-100">
     <slot />
   </a>
 </template>
