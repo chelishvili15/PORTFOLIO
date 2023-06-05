@@ -2,15 +2,17 @@
 import Left from "./components/Left.vue";
 import MouseEffect from "./components/MouseEffect.vue";
 import Right from "./components/Right.vue";
-import { useIsMobile } from "./composable/useIsMobile";
 
-const { isMobile } = useIsMobile();
 </script>
 
 <template>
-  <div class="flex text-slate-500 px-[10%]" :class="isMobile && 'px-[5%]'">
-    <Left class="w-1/2" />
-    <Right class="w-1/2" />
+  <div class="flex text-slate-500 py-32">
+    <div class="w-1/2 relative">
+      <Left class="fixed translate-x-2/3" />
+    </div>
+    <div class="w-1/2 min-h-max relative">
+      <Right class="w-2/3"/>
+    </div>
     <MouseEffect />
   </div>
 </template>

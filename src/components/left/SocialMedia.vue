@@ -7,9 +7,9 @@
 </template>
 
 <script setup>
-import Github from '../assets/icons/Github.vue';
-import Twitter from '../assets/icons/Twitter.vue';
-import Linkedin from '../assets/icons/Linkedin.vue'
+import Github from '../../assets/icons/Github.vue';
+import Twitter from '../../assets/icons/Twitter.vue';
+import Linkedin from '../../assets/icons/Linkedin.vue'
 
 </script>
 

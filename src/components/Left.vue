@@ -1,5 +1,5 @@
 <template>
-  <div class="py-[10%] flex flex-col space-y-20">
+  <div class="flex flex-col space-y-20">
     <Author />
     <Navigation />
     <SocialMedia />
@@ -7,9 +7,9 @@
 </template>
 
 <script setup>
-import Author from './Author.vue';
-import Navigation from './Navigation.vue';
-import SocialMedia from './SocialMedia.vue';
+import Author from './left/Author.vue';
+import Navigation from './left/Navigation.vue';
+import SocialMedia from './left/SocialMedia.vue';
 
 </script>
 
